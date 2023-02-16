@@ -1,6 +1,8 @@
 img{
   float: left;
-  width: 200px;
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
 }
 
 body{
@@ -10,14 +12,18 @@ nav{
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10% 30px 10%;
+  padding: 30px 10% 5px 10%;
   margin-left: -150px;
+  border-bottom: 3px solid;
+
 }
 
 .nav_links li{
   display:inline-block;
   padding: 0px 20px;
   font-size: 30px;
+  margin-bottom: -10px;
+
 }
 
 .nav_links{
@@ -31,10 +37,14 @@ nav{
   padding-top: 20px;
   color: blue;
 }
+#header h1{
+  margin-top: -20px;
+}
+
 
 #header2{
   color: blue;
-  padding-top:20px;
+  padding-top:0px;
   margin-left: 20px;
 }
 
